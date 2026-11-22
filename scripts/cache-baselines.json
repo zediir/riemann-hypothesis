@@ -15,10 +15,15 @@
       "commit": "611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9",
       "dependency_manifest_sha256": "ee003c5c7a9b2b2a82a142b6633916661c07117199dd143d94d1af63910237df",
       "baseline": {
-        "manifest_sha256": "651214f93c4c4bb05590ec1b717984f71e5511ddd973a89ca481d1cc1b51b232",
-        "map_sha256": "ac2bd247d281bbbcf648954ac3bee8de4e6881d49cd0d8e705e3f5272a753852",
-        "revision": "9e273ce65776c200fb97b7edaa288d637632bf7d"
+        "manifest_sha256": "0289e5c3d13cebb1dc45eda64ad73571dcf94fbb5a2b5b1799bd22b8825f4d0a",
+        "map_sha256": "8a5c16ae8f3b4fdc5fba35171672f2154321c75087103eb2ef84cbdb26d2a9e9",
+        "revision": "d4663eed405af528c67a3b1213021373cf8c0a5c"
       }
+    },
+    "leanprover/lean4:v4.37.0-rc1": {
+      "commit": "0b77e12952ad39077d80d8bd6b66d601f225c321",
+      "dependency_manifest_sha256": "6b5ad855ab2f8544071569928d1b84e8e6be14636e7b2809e7ccabb3937934ee",
+      "baseline": null
     }
   }
 }

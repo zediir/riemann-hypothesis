@@ -11,7 +11,7 @@ if CONFIG.get("schema") != 1 or CONFIG.get("active_toolchain") not in CONFIG.get
 
 
 def for_toolchain(toolchain):
-    if toolchain not in ("leanprover/lean4:v4.33.1", "leanprover/lean4:v4.36.0"):
+    if toolchain not in ("leanprover/lean4:v4.33.1", "leanprover/lean4:v4.36.0", "leanprover/lean4:v4.37.0-rc1"):
         raise ValueError("cache configuration requires an approved stock toolchain")
     entry = CONFIG["toolchains"][toolchain]
     baseline = entry["baseline"]
